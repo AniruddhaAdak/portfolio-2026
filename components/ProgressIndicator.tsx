@@ -1,9 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, MotionValue } from "framer-motion";
 
 interface ProgressIndicatorProps {
-  scaleX: any;
+  scaleX: MotionValue<number>;
 }
 
 export default function ProgressIndicator({ scaleX }: ProgressIndicatorProps) {
